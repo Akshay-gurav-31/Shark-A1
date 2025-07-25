@@ -1,0 +1,190 @@
+# ============================================================================
+# 🦈 SHARK ULTIMATE - FULL REQUIREMENTS LIST
+# NOTE: This list is exhaustive and includes many packages not used
+# in the current execution flow. Installation may take a long time.
+# ============================================================================
+
+# --- Core & System ---
+psutil
+pyuac
+pyttsx3
+pywin32
+schedule
+pyperclip
+pynput
+pygetwindow
+screen-brightness-control
+GPUtil
+cpuinfo
+system-hotkey
+keyboard
+mouse
+winshell  # Dependency for some system tasks
+
+# --- AI & Machine Learning ---
+google-generativeai
+openai
+anthropic
+transformers
+torch
+tensorflow
+keras
+tensorflow-probability
+textblob
+nltk
+spacy
+face_recognition
+dlib # face_recognition dependency
+easyocr
+sumy
+wordcloud
+scikit-learn # Often used with ML libraries
+xgboost
+lightgbm
+catboost
+prophet
+flax
+jax
+jaxlib
+haiku-dm
+trax
+mesh-tensorflow
+
+# --- Data Science & Visualization ---
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+plotly
+dash
+streamlit
+gradio
+pandas-datareader
+yfinance
+investpy
+mplfinance # For financial plots
+
+# --- Web & Networking ---
+requests
+requests-cache
+cloudscraper
+# undetected-chromedriver # Choose one driver
+selenium
+selenium-wire
+beautifulsoup4
+lxml
+html5lib
+newspaper3k
+readability-lxml
+feedparser
+websockets
+aiohttp
+python-socketio[client]
+flask
+fastapi
+uvicorn
+django
+gTTS
+pygame # Used by gTTS for playback sometimes
+speedtest-cli
+pyshark-legacy
+scapy
+netifaces
+pysftp
+paramiko
+fabric
+invoke
+tweepy
+instagrapi
+yt-dlp
+
+# --- Databases & Data Formats ---
+sqlalchemy
+pymongo
+mysql-connector-python
+psycopg2-binary
+pyodbc
+cx_Oracle
+cassandra-driver
+elasticsearch
+redis
+diskcache
+cachetools
+joblib
+pyarrow
+dask[complete]
+modin[all]
+polars
+pyyaml
+toml
+lxml # For XML
+
+# --- Cloud, DevOps & Services ---
+boto3
+google-cloud-storage
+azure-storage-blob
+dropbox
+pydrive2
+docker
+kubernetes
+python-vagrant
+ansible
+python-nomad
+prometheus-client
+grafana-api-py
+influxdb
+celery
+redis # For Celery/RQ broker
+rq
+dramatiq
+pika
+kombu
+pyzmq
+nats-py
+grpcio
+thrift
+
+# --- Image & Video Processing ---
+Pillow
+opencv-python
+moviepy
+ffmpeg-python
+imageio
+scikit-image
+pytesseract
+
+# --- Cryptography & Security ---
+cryptography
+pyjwt # Common for authentication
+
+# --- Utilities & Miscellaneous ---
+phonenumbers
+qrcode[pil]
+arrow
+certifi
+urllib3
+
+# --- Astronomy (Very Specialized) ---
+astropy
+astroquery
+reproject
+photutils
+sep
+astroscrappy
+ccdproc
+specutils
+linetools
+pyspeckit
+synphot
+pynbody
+yt
+emcee
+corner
+dynesty
+
+# --- Math ---
+sympy
+networkx
+python-igraph
+python-louvain # For community detection
