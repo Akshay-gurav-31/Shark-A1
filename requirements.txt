@@ -12,7 +12,9 @@ celery
 certifi
 ccxt
 cloudscraper
-comtypes
+
+# Windows-specific (safe on Render with condition)
+comtypes; sys_platform == "win32"
 community
 cryptography
 py-cpuinfo
@@ -66,30 +68,34 @@ phonenumbers
 photutils
 Pillow
 plotly
-plyer
+
+# Optional / Desktop-specific — use conditional install
+plyer; sys_platform == "win32"
+
 polars
 prometheus_client
 prophet
 psutil
 py7zr
 pyarrow
-pyautogui
-pycaw
+
+# Desktop automation — Windows only
+pyautogui; sys_platform == "win32"
+pycaw; sys_platform == "win32"
 pyclipper
 pydrive
-pygetwindow
-pynput
+pygetwindow; sys_platform == "win32"
+pynput; sys_platform == "win32"
 pyodbc
 pyperclip
 pytesseract
 pyttsx3
-pyuac
-pywin32
-pythoncom
+pyuac; sys_platform == "win32"
+pywin32; sys_platform == "win32"
+pythoncom; sys_platform == "win32"
 pysftp
 pyspeckit
 pyshark
-pyttsx3
 readability-lxml
 redis
 requests
@@ -97,7 +103,7 @@ requests-cache
 rq
 scapy
 schedule
-screen-brightness-control
+screen-brightness-control; sys_platform == "win32"
 scikit-image
 scikit-learn
 scipy
@@ -106,7 +112,7 @@ selenium-wire
 seaborn
 sumy
 sympy
-system-hotkey
+system-hotkey; sys_platform == "win32"
 textblob
 tweepy
 transformers
