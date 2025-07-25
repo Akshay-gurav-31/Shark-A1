@@ -119,7 +119,6 @@ transformers
 trax
 urllib3
 uvicorn
-vagrant
 websockets
 wordcloud
 xgboost
