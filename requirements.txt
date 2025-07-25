@@ -15,7 +15,7 @@ cloudscraper
 comtypes
 community
 cryptography
-cpuinfo
+py-cpuinfo
 dash
 diskcache
 dlib
